@@ -4,7 +4,7 @@ A Flutter-based mobile application using Dart to provide users with
 real-time news updates. Integrated a news API to fetch and present
 articles Use Cubit (Bloc library) for state management
 
-#🚀 Key Features
+## 🚀 Key Features
 Modern and responsive design.
 High performance and fast loading speed.
 Smooth and user-friendly UI/UX.
