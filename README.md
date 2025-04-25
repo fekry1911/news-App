@@ -6,8 +6,7 @@ articles Use Cubit (Bloc library) for state management
 
 ## 🚀 Key Features
 Modern and responsive design.
--High performance and fast loading speed.
--Smooth and user-friendly UI/UX.
+High performance and fast loading speed and Smooth and user-friendly UI/UX.
 
 
 
