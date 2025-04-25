@@ -1,12 +1,15 @@
 # newsapp
 
-A new Flutter project.
+A Flutter-based mobile application using Dart to provide users with
+real-time news updates. Integrated a news API to fetch and present
+articles Use Cubit (Bloc library) for state management
 
-## Getting Started
+#🚀 Key Features
+Modern and responsive design.
+High performance and fast loading speed.
+Smooth and user-friendly UI/UX.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
