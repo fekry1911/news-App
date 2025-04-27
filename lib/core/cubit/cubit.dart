@@ -1,12 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:newsapp/features/home/logic/cubit/states.dart';
+import 'package:newsapp/core/cubit/states.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../../data/NewsApi.dart';
-import '../../data/models/postModel.dart';
-import '../../presentation/widgets/subscreens/busniess.dart';
-import '../../presentation/widgets/subscreens/science.dart';
-import '../../presentation/widgets/subscreens/sports.dart';
+
+import '../../features/home/data/models/postModel.dart';
+import '../../features/home/presentation/subscreens/busniess.dart';
+import '../../features/home/presentation/subscreens/science.dart';
+import '../../features/home/presentation/subscreens/sports.dart';
+import '../network/api/NewsApi.dart';
+
 
 class NewsCubit extends Cubit<NewsStates> {
   NewsCubit() : super(NewsInitialState());

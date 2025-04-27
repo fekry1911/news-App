@@ -4,21 +4,22 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
-import '../../../../../core/sharedData/modules/cardModel.dart';
-import '../../../logic/cubit/cubit.dart';
-import '../../../logic/cubit/states.dart';
-import '../../webView.dart';
+import '../../../../../core/cubit/cubit.dart';
+import '../../../../../core/cubit/states.dart';
+import '../../../search/presentaion/webView.dart';
+import '../../../../core/component_widgets/card_design.dart';
 
-class Sports extends StatelessWidget {
-  const Sports({super.key});
+
+class Science extends StatelessWidget {
+  const Science({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<NewsCubit, NewsStates>(
+    return  BlocConsumer<NewsCubit, NewsStates>(
       builder: (context, state) {
         var cubit = NewsCubit.get(context);
         return ConditionalBuilder(
-          condition: cubit.sports.isNotEmpty,
+          condition: cubit.science.isNotEmpty,
           builder: (context) {
             return ListView.builder(
               itemBuilder: (context, index) {
@@ -29,8 +30,8 @@ class Sports extends StatelessWidget {
                       MaterialPageRoute(
                         builder:
                             (context) => WebViewScreen(
-                              url: cubit.model.articles![index].url!,
-                            ),
+                          url: cubit.science[index].url!,
+                        ),
                       ),
                     );
                   },
@@ -38,11 +39,11 @@ class Sports extends StatelessWidget {
                     height: MediaQuery.of(context).size.height*.15,
                     child: CardDesign(
                       urlToImage:
-                          cubit.sports[index].urlToImage ??
+                      cubit.science[index].urlToImage ??
                           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7oka1Shx4WugBk4022ecxU6_3yZg6QLYLw&s",
-                      title: cubit.sports[index].source?.name!,
+                      title: cubit.science[index].source?.name!,
                       description:
-                          cubit.sports[index].description ?? "unknown",
+                      cubit.science[index].description ?? "unknown",
                     ),
                   ),
                 );

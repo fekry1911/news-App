@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'app.dart';
-import 'features/home/data/NewsApi.dart';
+import 'core/network/api/NewsApi.dart';
 
 void main() {
   DioHelper.init();

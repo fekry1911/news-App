@@ -4,10 +4,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
-import '../../../../../core/sharedData/modules/cardModel.dart';
-import '../../../logic/cubit/cubit.dart';
-import '../../../logic/cubit/states.dart';
-import '../../webView.dart';
+import '../../../../../core/cubit/cubit.dart';
+import '../../../../../core/cubit/states.dart';
+import '../../../search/presentaion/webView.dart';
+import '../../../../core/component_widgets/card_design.dart';
+
 
 class Business extends StatelessWidget {
   const Business({super.key});

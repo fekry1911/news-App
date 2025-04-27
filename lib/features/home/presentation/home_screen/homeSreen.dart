@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:newsapp/features/home/presentation/search.dart';
-import '../logic/cubit/cubit.dart';
-import '../logic/cubit/states.dart';
+import 'package:newsapp/features/search/presentaion/search.dart';
+
+import '../../../../core/cubit/cubit.dart';
+import '../../../../core/cubit/states.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
