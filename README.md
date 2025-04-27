@@ -32,9 +32,3 @@ This project was built using a combination of powerful tools and technologies. B
 ![WhatsApp Image 2025-04-22 at 04 18 46_9bb09a6a](https://github.com/user-attachments/assets/15cc0b50-dd00-4683-bc08-ccd1da7bd3e6)
 ![WhatsApp Image 2025-04-22 at 04 18 45_6b8c3b43](https://github.com/user-attachments/assets/bc835573-9e5c-40c7-b356-96d984262ddd)
 
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to fork, contribute, or suggest improvements to the project! 😊
